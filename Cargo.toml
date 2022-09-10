@@ -1,0 +1,16 @@
+[package]
+name = "rustymail"
+authors = ["Nrishinghananda Roy <royrustdev@gmail.com>"]
+version = "0.0.1"
+edition = "2021"
+readme = "README.md"
+description = "An Email Newsletter created with rust axum framework"
+license = "MIT OR Apache-2.0"
+keywords = ["email", "newsletter", "axum"]
+categories = ["email", "web-programming"]
+repository = "https://github.com/royrustdev/rustymail.git"
+
+[badges]
+maintenance = { status = "experimental" }
+
+[dependencies]

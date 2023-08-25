@@ -1,17 +1,15 @@
 [package]
 name = "rustymail"
-authors = ["Nrishinghananda Roy <royrustdev@gmail.com>"]
+authors = ["Nrishinghananda Roy <roynrishingha@gmail.com>"]
 version = "0.0.1"
 edition = "2021"
 readme = "README.md"
-description = "An Email Newsletter created with rust axum framework"
+description = "An Email Newsletter created with Rust actix-web framework"
 license = "MIT OR Apache-2.0"
-keywords = ["email", "newsletter", "axum"]
+keywords = ["email", "newsletter"]
 categories = ["email", "web-programming"]
-repository = "https://github.com/royrustdev/rustymail.git"
+repository = "https://github.com/roynrishingha/rustymail.git"
 
-[badges]
-maintenance = { status = "experimental" }
 
 [lib]
 path = "src/lib.rs"
@@ -21,7 +19,7 @@ path = "src/main.rs"
 name = "rustymail"
 
 [dependencies]
-axum = "0.6.0-rc.2"
+actix-web = "4.0.0"
 tokio = { version = "1", features = ["full"] }
 tracing = "0.1.36"
 hyper = { version = "0.14", features = ["full"] }
